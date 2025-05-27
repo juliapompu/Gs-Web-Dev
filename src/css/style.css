@@ -18,3 +18,15 @@ main {
     margin-left: 60px; 
     padding: 20px;
 }
+
+/*Barra do fundo*/
+footer{
+    background-color: #062F4F;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+
+  }
+
