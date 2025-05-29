@@ -13,97 +13,88 @@
 
 <body>
    <script src="func.js"></script>
-   <div class="logo">
-        <img src="assets/RiscoZero.png-removebg-preview.png" alt="RiscoZero" class="logo-img">
-    </div>
-    <header class="top-bar">
-  <nav>
-    <a href="index.html">Início</a>
-    <a href="scr/pages/alagamentos.html">Alagamentos</a>
-    <a href="scr/pages/desastres.html">Desastres</a>
-    <a href="scr/pages/segurança.html">Segurança</a>
-  </nav>
-</header>
-
-<main>
-  <article>
-   <div class="text">
-      <h2> Desde 2020, Prevendo para proteger. Agindo para preservar.</h2>
-      <p class="texto2">
-        Aqui no nosso site pode conferir onde está alagado por grandes chuvas, 
-        pode ver se poderá acontecer algum desastre perto da sua localização. 
-        E será alertado se alguma coisa pode afringir sua segurança! 
-        Prever para proteger. Agir para preservar.
-      </p>
-  </article>
-</main>
-    <div class="carousel">
-      <div class="carousel-images">
-        <img src="assets/enchente.webp" alt="Enchente">
-        <img src="assets/queimada.png" alt="Queimadas">
-
+   <div class="logo-container">
+    <header>
+      <div class="header-container">
+        <img src="assets/RiscoZero.png-removebg-preview.png" class="logo">
+        <div class="header-text">
+          <h1>RiscoZero</h1>
+          <p>Prevenindo para proteger, agindo para preservar!</p>
+        </div>
       </div>
-      <button class="prev">❮</button>
-      <button class="next">❯</button>
+    </header>
+
+<div class="main-section">
+  
+  <div class="carousel-container">
+    <div class="carousel-slide" id="carousel-slide">
+      <img src="assets/enchente.webp" alt="Imagem 1">
+      <img src="assets/queimada.png" alt="Imagem 2">
+      <img src="assets/furacao.png" alt="Imagem 3">
+    </div>
+    <div class="carousel-nav">
+      <button onclick="prevSlide()">❮</button>
+      <button onclick="nextSlide()">❯</button>
     </div>
   </div>
 
-  <div class="banner">
-    <img src="assets/fundo.jpg" class="banner-img">
+  <div class="content">
+    <h2>Por que prevenir enchentes?</h2>
+    <p>
+      Enchentes causam grandes prejuízos e afetam milhares de pessoas todos os anos.
+      Com ações simples como manter bueiros limpos, preservar áreas verdes e evitar
+      o descarte de lixo nas ruas, podemos reduzir os riscos e proteger vidas.
+    </p>
+  </div>
+</div>
+
+
+<div class="comoAgir">
+  <h2>Como agir para preservar?</h2>
+  <p>
+    A preservação do meio ambiente é fundamental para evitar desastres naturais.
+    Denunciar queimadas, plantar árvores e participar de campanhas de conscientização
+    são formas eficazes de agir. Juntos, podemos fazer a diferença!
+  </p>
+</div>
+</div>
+
+
+<footer>
+  <div class="footer-container">
+
+    <div class="footer-section">
+      <h3>Sobre</h3>
+      <p>
+       RiscoZero<br>
+        Prevenir para proteger. Agir para preservar.
+      </p>
     </div>
 
-    <div class="container">
-      <div class="card">
-        <h3>Alerta de Alagamento</h3>
-        <p>Confira as áreas afetadas por alagamentos em tempo real.</p>
-      </div>
-      <div class="card">
-        <h3>Previsão de Desastres</h3>
-        <p>Veja previsões de desastres naturais na sua região.</p>
-      </div>
-      <div class="card">
-        <h3>Notificações de Segurança</h3>
-        <p>Receba alertas sobre riscos à sua segurança.</p>
-      </div>
-    <footer>
-      <div class="emcima">
-        <header>
-          <div class="top-bar"></div>
-          <div class="side-bar"></div>
-          </header>
-        
-        <BR></BR>
-  
-        <p>Conheça mais do RiscoZero em @RiscoZeroPrevenção</p>
-        <p>
-          Agencia Nacional de Proteção e Defesa Civil.
-          <br>
-          Prevenir para proteger. Agir para preservar.
-          <br>
-          Av. Paulista, 1106 - 7º andar - Bela Vista, São Paulo - SP, 01311-000
-          <BR></BR>
-          CONTATO
-          <BR></BR>
-          Telefone:
-          <br>
-          (11) 5555-5555
-          <br>
-          Instagram:
-          <br>
-          @RiscoZeroPrevenção
-          <br>
-          Email:
-          <br>
-          RiscoZeroPrevenção@gmail.com
+    <div class="footer-section">
+      <h3>Endereço</h3>
+      <p>
+        Av. Paulista, 1106 - 8º andar<br>
+        Bela Vista, São Paulo - SP<br>
+        CEP: 01311-000
+      </p>
+    </div>
 
-        </p>
-      </div>
+    <div class="footer-section">
+      <h3>Contato</h3>
+      <p>
+        Telefone: (11) 5555-5555<br>
+        Email: RiscoZeroPrevenção@gmail.com<br>
+        Instagram: @RiscoZeroPrevenção
+      </p>
     </div>
-    <div class="embaixo">
-      <br>
-      © 2025 RiscoZero. Conteúdo protegido por direitos autorais. Todos os direitos reservados.
-    </div>
-    </footer>
+
+  </div>
+
+  <div class="embaixo">
+    © 2025 RiscoZero. Conteúdo protegido por direitos autorais. Todos os direitos reservados.
+  </div>
+</footer>
 
 
 </body>
