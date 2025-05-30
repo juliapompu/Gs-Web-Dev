@@ -1,4 +1,4 @@
-/* Reset e base */
+/* Principal da página*/
 * {
   margin: 0;
   padding: 0;
@@ -38,6 +38,7 @@ body {
 }
 
 
+/*------------------------------------------*/
 
 /* Seção principal com carrossel e texto lado a lado */
 .main-section {
@@ -94,6 +95,9 @@ body {
   cursor: pointer;
   border-radius: 50%;
 }
+
+/*------------------------*/
+
 
 /* Conteúdo */
 .content {
@@ -185,6 +189,14 @@ footer {
     text-align: center;
   }
 }
+
+#enchente2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
 .comoAgir{
   color: #023e8a;
   margin-bottom: 10px;
