@@ -1,4 +1,5 @@
 /* Principal da página*/
+
 * {
   margin: 0;
   padding: 0;
@@ -96,24 +97,7 @@ body {
   border-radius: 50%;
 }
 
-/*------------------------*/
-
-
-/* Conteúdo */
-.content {
-  max-width: 500px;
-}
-
-.content h2 {
-  color: #023e8a;
-  margin-bottom: 1rem;
-  font-size: 1.8rem;
-}
-
-.content p {
-  font-size: 1.1rem;
-  color: #333;
-}
+/*-------------------------------------------*/
 
 /* Responsividade */
 @media (max-width: 900px) {
@@ -132,16 +116,7 @@ body {
   }
 }
 
-
-/* Conteúdo principal */
-
-
-.content p {
-  max-width: 700px;
-  margin: 0 auto;
-  font-size: 1.1rem;
-  color: #333;
-}
+/*-------------------------------------------*/
 
 /* Rodapé */
 footer {
@@ -190,6 +165,31 @@ footer {
   }
 }
 
+/*-------------------------------------------*/
+/*Conteúdo da página*/
+
+.content {
+  max-width: 500px;
+}
+
+.content h2 {
+  color: #023e8a;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.content p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.content p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #333;
+}
+
 #enchente2 {
   display: flex;
   align-items: center;
@@ -208,3 +208,9 @@ footer {
   color: #333;
   max-width: 700px;
 }
+
+ nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
