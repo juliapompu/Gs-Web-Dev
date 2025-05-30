@@ -1,5 +1,5 @@
-/* Principal da página*/
-
+/*PÁGINA INICIAL - CSS*/
+/* Reset básico */
 * {
   margin: 0;
   padding: 0;
@@ -214,3 +214,9 @@ footer {
     text-decoration: none;
     margin-left: 20px;
   }
+
+  /*--------------------------------------------*/
+
+  /*PÁGINA DE ALERTAS - CSS*/
+
+  
