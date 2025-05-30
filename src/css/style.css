@@ -116,6 +116,58 @@ body {
   }
 }
 
+/*--------------------------------------------*/
+
+/*Conteúdo da página*/
+
+.content {
+  max-width: 500px;
+}
+
+.content h2 {
+  color: #023e8a;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.content p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.content p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+#enchente2 {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 140px;
+}
+
+.comoAgir h2{
+  color: #023e8a;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.comoAgir p {
+  font-size: 20px;
+  color: #333;
+  max-width: 700px;
+}
+
+ nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+
+
 /*-------------------------------------------*/
 
 /* Rodapé */
@@ -165,58 +217,8 @@ footer {
   }
 }
 
+
 /*-------------------------------------------*/
-/*Conteúdo da página*/
-
-.content {
-  max-width: 500px;
-}
-
-.content h2 {
-  color: #023e8a;
-  margin-bottom: 1rem;
-  font-size: 1.8rem;
-}
-
-.content p {
-  font-size: 1.1rem;
-  color: #333;
-}
-
-.content p {
-  max-width: 700px;
-  margin: 0 auto;
-  font-size: 1.1rem;
-  color: #333;
-}
-
-#enchente2 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-}
-
-.comoAgir{
-  color: #023e8a;
-  margin-bottom: 10px;
-  font-size: 18px;
-}
-
-.comoAgir p {
-  font-size: 20px;
-  color: #333;
-  max-width: 700px;
-}
-
- nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
-  }
-
-  /*--------------------------------------------*/
 
   /*PÁGINA DE ALERTAS - CSS*/
 
-  
