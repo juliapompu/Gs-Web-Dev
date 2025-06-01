@@ -250,3 +250,40 @@ footer {
   border-radius: 5px;
   font-size: 16px;
 }
+
+/*-------------------------------------------*/
+
+/* Css do menu hamburguer */
+#hamburger {
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  z-index: 1100;
+}
+
+#menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;       /* abaixo do header */
+  right: 20px;     /* grudado no canto direito */
+  background-color: #444;
+  padding: 10px;
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+#menu a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 0;
+}
+
+#menu a:hover {
+  background-color: #555;
+}
