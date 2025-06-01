@@ -11,7 +11,7 @@ button.addEventListener('click', function(event){
   const questao8 = document.querySelector("input[name='questao8']:checked")
   const questao9 = document.querySelector("input[name='questao9']:checked")
   const questao10 = document.querySelector("input[name='questao10']:checked")
-    if (!questao1 || !questao2 || !questao3 || !questao4 || !questao5 || !questao6 || !questao7 || !questao8 || !questao9 || !questao10) {
+  if (!questao1 || !questao2 || !questao3 || !questao4 || !questao5 || !questao6 || !questao7 || !questao8 || !questao9 || !questao10) {
     alert('Por favor, responda todas as questões antes de enviar.')
     return
   }
