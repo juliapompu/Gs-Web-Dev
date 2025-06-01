@@ -222,3 +222,31 @@ footer {
 
   /*PÁGINA DE ALERTAS - CSS*/
 
+/*-------------------------------------------*/
+
+/* Css do Quiz */
+
+.questoesQuiz {
+  color: #062F4F;
+}
+.formularioQuiz {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+#paragrafo {
+  font-size: 20px;
+  text-align: center;
+  color: #062F4F;
+}
+#botaoEnviar {
+  background-color: #062F4F;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}

@@ -7,13 +7,13 @@
     <link rel="icon" type="image/png" href="../assets/RiscoZero.png-removebg-preview.png">
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-     <link rel="icon" type="image/png" href="assets/RiscoZero.png.jpg">
-</head>
-
-
+    <link rel="icon" type="image/png" href="assets/RiscoZero.png.jpg">
+  </head>
+  
+  
 <body>
-   <script src="func.js"></script>
-   <div class="logo-container">
+  <!-- <script src="func.js"></script> -->
+  <div class="logo-container">
     <header>
       <div class="header-container">
         <img src="../assets/RiscoZero.png-removebg-preview.png" class="logo">
@@ -26,21 +26,125 @@
       <a href="../pages/quiz.html">Quiz</a>
 
     </nav>
-        </div>
-      </div>
+  </div>
+</div>
     </header>
 
-   
-  <BR></BR>
-
-
-<footer>
+    
+  <!-- <BR></BR> -->
+  
+      <form id="meuFormulario" class="formularioQuiz">
+        <h2 class="questoesQuiz">1. Qual dos eventos abaixo é considerado um desastre natural?</h2><br>
+        <input type="radio" name="questao1" value="explosaoFabrica" />
+        <span>Explosão em fábrica</span><br>
+        <input type="radio" name="questao1" value="enchenteChuvasIntensas" id="correta" />
+        <span>Enchente causada por chuvas intensas</span><br>
+        <input type="radio" name="questao1" value="acidenteAviao" />
+        <span>Acidente de avião</span><br>
+        <input type="radio" name="questao1" value="vazamentoOleo" />
+        <span>Vazamento de óleo</span><br>
+        
+        <h2 class="questoesQuiz">2. O que pode causar um tsunami?</h2><br>
+        <input type="radio" name="questao2" value="furacaoAlto-mar" />
+        <span>Furacão em alto-mar</span><br>
+        <input type="radio" name="questao2" value="erupcaoSolar" />
+        <span>Erupção solar</span><br>
+        <input type="radio" name="questao2" value="terremotoSubmarino" id="correta" />
+        <span>Terremoto submarino</span><br>
+        <input type="radio" name="questao2" value="deslizamentoTerraEncosta" />
+        <span>Deslizamento de terra em encosta</span><br>
+        
+        <h2 class="questoesQuiz">3. Qual instrumento é usado para medir terremotos?</h2><br>
+        <input type="radio" name="questao3" value="barometro" />
+        <span>Barômetro</span><br>
+        <input type="radio" name="questao3" value="sismografo" id="correta" />
+        <span>Sismógrafo</span><br>
+        <input type="radio" name="questao3" value="anemometro" />
+        <span>Anemômetro</span><br>
+        <input type="radio" name="questao3" value="termometro" />
+        <span>Termômetro</span><br>
+        
+        <h2 class="questoesQuiz">4. Um furacão também pode ser chamado de:</h2><br>
+        <input type="radio" name="questao4" value="tornado" />
+        <span>Tornado</span><br>
+        <input type="radio" name="questao4" value="tufaoCiclone" id="correta" />
+        <span>Tufão ou ciclone</span><br>
+        <input type="radio" name="questao4" value="tremor" />
+        <span>Tremor</span><br>
+        <input type="radio" name="questao4" value="avalanche" />
+        <span>Avalanche</span><br>
+        
+        <h2 class="questoesQuiz">5. Qual destes desastres é mais comum em regiões montanhosas com neve?</h2><br>
+        <input type="radio" name="questao5" value="seca" />
+        <span>Seca</span><br>
+        <input type="radio" name="questao5" value="tornado" />
+        <span>Tornado</span><br>
+        <input type="radio" name="questao5" value="avalanche" id="correta"/>
+        <span>Avalanche</span><br>
+        <input type="radio" name="questao5" value="vulcao" />
+        <span>Vulcão</span><br>
+        
+        <h2 class="questoesQuiz">6. Qual o principal perigo dos vulcões em erupção?</h2><br>
+        <input type="radio" name="questao6" value="neve" />
+        <span>Neve congelada</span><br>
+        <input type="radio" name="questao6" value="raiosTrovoes" />
+        <span>Raios e trovões</span><br>
+        <input type="radio" name="questao6" value="lavaGasesToxicos" id="correta"/>
+        <span>Lava e gases tóxicos</span><br>
+        <input type="radio" name="questao6" value="enxurradas" />
+        <span>Enxurradas</span><br>
+        
+        <h2 class="questoesQuiz">7. O que caracteriza uma seca?</h2><br>
+        <input type="radio" name="questao7" value="excessoChuvas" />
+        <span>Excesso de chuvas</span><br>
+        <input type="radio" name="questao7" value="faltaChuva" id="correta"/>
+        <span>Falta prolongada de chuva</span><br>
+        <input type="radio" name="questao7" value="chuvaGranizo" />
+        <span>Chuva de granizo intensa</span><br>
+        <input type="radio" name="questao7" value="ventoForte" />
+        <span>Vento forte constante</span><br>
+        
+        <h2 class="questoesQuiz">8. Os deslizamnetos de terra geralmente ocorrem após:</h2><br>
+        <input type="radio" name="questao8" value="ondaCalor" />
+        <span>Ondas de calor</span><br>
+        <input type="radio" name="questao8" value="terremoto" />
+        <span>Terremotos</span><br>
+        <input type="radio" name="questao8" value="chuvaForte" id="correta"/>
+        <span>Chuvas fortes e contínuas</span><br>
+        <input type="radio" name="questao8" value="erupcaoSolar" />
+        <span>Erupções solares</span><br>
+        
+        <h2 class="questoesQuiz">9. Qual das opções a seguir é um exemplo de desastre natural de origem atmosférica?</h2><br>
+        <input type="radio" name="questao9" value="incendioFlorestal" />
+        <span>Incêndio florestal</span><br>
+        <input type="radio" name="questao9" value="furacao" id="correta"/>
+        <span>Furacão</span><br>
+        <input type="radio" name="questao9" value="terremoto" />
+        <span>Terremoto</span><br>
+        <input type="radio" name="questao9" value="tsunami" />
+        <span>Tsunami</span><br>
+        
+        <h2 class="questoesQuiz">10. O que fazer durante um terremoto, se você estiver dentro de casa?</h2><br>
+        <input type="radio" name="questao10" value="correrEscada" />
+        <span>Correr para escadas</span><br>
+        <input type="radio" name="questao10" value="embaixoDeMoveis" id="correta"/>
+        <span>Ficar embaixo de móveis firmes e proteger a cabeça</span><br>
+        <input type="radio" name="questao10" value="correrRua" />
+        <span>Sair correndo para a rua</span><br>
+        <input type="radio" name="questao10" value="subirTelhado" />
+        <span>Subir no telhado</span><br>
+        <br>
+        <button type="submit" id="botaoEnviar">Enviar</button>
+        <p id="paragrafo"></p>
+    </form>
+    
+    <footer>
   <div class="footer-container">
-
+    
     <div class="footer-section">
       <h3>Sobre</h3>
       <p>
-       RiscoZero<br>
+        RiscoZero<br>
         Prevenir para proteger. Agir para preservar.
       </p>
     </div>
@@ -53,7 +157,7 @@
         CEP: 01311-000
       </p>
     </div>
-
+    
     <div class="footer-section">
       <h3>Contato</h3>
       <p>
@@ -62,9 +166,9 @@
         Instagram: @RiscoZeroPrevenção
       </p>
     </div>
-
+    
   </div>
-
+  
   <div class="embaixo">
     © 2025 RiscoZero. Conteúdo protegido por direitos autorais. Todos os direitos reservados.
   </div>
@@ -72,4 +176,5 @@
 
 
 </body>
+<script src="../js/quiz.js"></script>
 </html>
