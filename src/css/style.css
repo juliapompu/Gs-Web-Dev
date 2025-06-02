@@ -270,8 +270,8 @@ footer {
   display: none;
   flex-direction: column;
   position: absolute;
-  top: 60px;       /* abaixo do header */
-  right: 20px;     /* grudado no canto direito */
+  top: 60px;  
+  right: 20px;
   background-color: #444;
   padding: 10px;
   border-radius: 8px;
@@ -287,3 +287,31 @@ footer {
 #menu a:hover {
   background-color: #555;
 }
+
+/*-------------------------------------------*/
+
+/* Css do botao do modo escuro */
+body {
+    transition: background-color 0.3s;
+  }
+  #temaRosa {
+    position: fixed;
+    top: 15px;
+    right: 50px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  #temaEscuro {
+    position: fixed;
+    top: 15px;
+    right: 82px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  #temaClaro {
+    position: fixed;
+    top: 15px;
+    right: 110px;
+    font-size: 24px;
+    cursor: pointer;
+  }
