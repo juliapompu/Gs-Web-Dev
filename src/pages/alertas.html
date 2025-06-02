@@ -31,18 +31,31 @@
       </div>
     </header>
 
-   <div id="selecionaCidade">
-      <div class="cidade">
-        <select>
-          <option value="São Paulo">São Paulo</option>
-          <option value="Jundía">Jundía</option>
-          <option value="Guarulhos">Guarulhos</option>
-          <option value="Rio de Janeiro">Rio de Janeiro</option>
-          <option value="Arraia do Cabo">Arraia do Cabo</option>
-          <option value="Barra do Pírai">Barra do Pírai</option>
-        </select>
-      </div>
+   <div id="selecionaCidade" >
+  <label for="estado">Escolha o estado:</label>
+  <select id="estado">
+  <option value="">Selecione</option>
+  <option value="SãoPaulo">São Paulo</option>
+  <option value="RiodeJaneiro">Rio de Janeiro</option>
+  <option value="BH">Belo Horizonte</option>
+  <option value="PortoAlegre">Porto Alegre </option>
+  <option value="Palmas">Palmas</option>
+  <option value="Natal">Natal</option>
+  <option value="Amazonas">Amazonas</option>
+  
+</select>
+
+<div id="mensagem" style="display:none; margin-top:10px;">
+  ----------S.O.S Enchentes esta aqui para te ajudar!----------
+  <P> -------- Sistema de Monitoramento de Enchentes </P>
+  <p> 1- Verificar situação de uma região</p>
+  <p> 2- atualizar dados de um região</p>
+  <p> 3- Relatório geral de risco</p>
+  <p> 4- Sair</p>
+
+</div>
   </div>
+
   <BR></BR>
 
 
@@ -84,6 +97,6 @@
 
 
 </body>
-<script src="../js/func.js"></script>
+<script src="../js/js.js"></script>
 <script src="../js/menu.js"></script>
 </html>
