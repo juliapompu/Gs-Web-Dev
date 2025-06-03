@@ -54,8 +54,8 @@ body {
 /* Carrossel menor */
 .carousel-container {
   position: relative;
-  width: 400px;
-  height: 250px;
+  width: 450px;
+  height: 350px;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
@@ -67,14 +67,14 @@ body {
 }
 
 .carousel-slide img {
-  width: 400px;
-  height: 250px;
+  width: 500px;
+  height: 350px;
   object-fit: cover;
 }
 
 .carousel-slide img {
-  width: 400px;
-  height: 250px;
+  width: 500px;
+  height: 350px;
   object-fit: cover;
 }
 
@@ -137,7 +137,7 @@ body {
 
 .content p {
   max-width: 700px;
-  margin: 0 auto;
+  margin: 0;
   font-size: 1.1rem;
   color: #333;
 }
@@ -149,6 +149,7 @@ body {
   gap: 40px;
   padding: 2rem;
   flex-wrap: wrap;
+  flex-direction: row-reverse;
 }
 
 .comoSolucionar h2{
