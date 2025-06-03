@@ -227,6 +227,51 @@ body {
     transform: scale(1.1);
   }
 
+#publicoAlvo  h3{
+  color: #023e8a;
+  margin-bottom: 10px;
+  font-size: 24px;
+  margin: 40px;
+}
+
+#publicoAlvo p {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px auto;
+  margin: 40px;
+}
+
+#beneficios h3 {
+  color: #023e8a;
+  margin-bottom: 10px;
+  font-size: 24px;
+  margin: 40px;
+}
+
+#beneficios{
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px auto;
+  margin: 40px;
+}
+
+#comoAjudar h3 {
+  color: #023e8a;
+  margin-bottom: 10px;
+  font-size: 24px;
+  margin: 40px;
+}
+
+#comoAjudar p{
+  font-size: 20px;
+  color:#333;
+  margin-bottom: 10px auto;
+  margin: 40px;
+}
+
+
+
+
 /*-------------------------------------------*/
 
 /*Mapa*/
