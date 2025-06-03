@@ -171,6 +171,22 @@ body {
 
 
 /*-------------------------------------------*/
+/*Mapa*/
+
+#atencaoRisco p{
+  font-size: 30px;
+  color: #0c6db6;
+  max-width: 700px;
+  margin: 20px;
+}
+
+#legendaMapa {
+  margin: 20px;
+  font-size: 15px;
+}
+
+
+/*--------------------------------------------*/
 
 /* Rodapé */
 footer {
