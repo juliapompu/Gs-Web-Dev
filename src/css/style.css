@@ -290,7 +290,7 @@ footer {
 
 /*-------------------------------------------*/
 
-/* Css do botao do modo escuro */
+/* Css dos temas */
 body {
     transition: background-color 0.3s;
   }
@@ -316,8 +316,17 @@ body {
     right: 110px;
   }
 
+/*-------------------------------------------*/
+
+/* Css do modo rosa */
 body.modo-rosa {
   background-color: #f0f4f8;
+}
+.modo-rosa #questoesQuiz {
+  color: #ff78cb;
+}
+.modo-rosa #botaoEnviar {
+  background-color: #ff78cb;
 }
 .modo-rosa header{
   background-color: #ff78cb;
@@ -330,8 +339,20 @@ body.modo-rosa {
   color: #ff78cb;
 }
 
+/*-------------------------------------------*/
+
+/* Css do modo escuro */
 body.modo-escuro {
   background-color: #062F4F;
+}
+.modo-escuro form {
+  background-color: #023e8a;
+}
+.modo-escuro #questoesQuiz {
+  color: white;
+}
+.modo-escuro span {
+  color: white;
 }
 .modo-escuro header,
 .modo-escuro footer {
@@ -345,6 +366,9 @@ body.modo-escuro {
   color: white;
 }
 
+/*-------------------------------------------*/
+
+/* Css do modo claro */
 body.modo-claro {
   background-color: #f0f4f8;
 }
