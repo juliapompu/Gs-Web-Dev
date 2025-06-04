@@ -452,7 +452,19 @@ body.modo-rosa {
   background-color: #ff78cb;
 }
 .modo-rosa .content h2,
-.modo-rosa .comoAgir h2{
+.modo-rosa .comoAgir h2,
+.modo-rosa .comoSolucionar h2,
+.modo-rosa #tecnologia h3,
+.modo-rosa #objetivos h3,
+.modo-rosa #publicoAlvo h3,
+.modo-rosa #beneficios h3,
+.modo-rosa #comoAjudar h3{
+  color: #ff78cb;
+}
+.modo-rosa .linha {
+  background: #ff78cb; 
+}
+.modo-rosa #atencaoRisco p{
   color: #ff78cb;
 }
 
@@ -478,8 +490,31 @@ body.modo-escuro {
 }
 .modo-escuro .content h2,
 .modo-escuro .comoAgir h2,
+.modo-escuro .comoSolucionar h2,
+.modo-escuro #tecnologia h3,
+.modo-escuro #objetivos h3,
+.modo-escuro #publicoAlvo h3,
+.modo-escuro #beneficios h3,
+.modo-escuro #comoAjudar h3 {
+  color: #7cbdff;
+}
 .modo-escuro .content p,
-.modo-escuro .comoAgir p {
+.modo-escuro .comoAgir p,
+.modo-escuro .comoSolucionar p,
+.modo-escuro #tecnologia p, 
+.modo-escuro #objetivos ol,
+.modo-escuro #publicoAlvo p,
+.modo-escuro #beneficios ul, 
+.modo-escuro #comoAjudar p {
+  color: white;
+}
+.modo-escuro .linha {
+  background: #f0f4f8; 
+}
+.modo-escuro #atencaoRisco p{
+  color: white;
+}
+.modo-escuro #legendaMapa {
   color: white;
 }
 
