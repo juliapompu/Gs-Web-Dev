@@ -294,21 +294,21 @@ footer {
 body {
     transition: background-color 0.3s;
   }
-  #temaRosa {
+  #botaoRosa {
     font-size: 25px;
     cursor: pointer;
     position: absolute;
     top: 15px;
     right: 50px;
   }
-  #temaEscuro {
+  #botaoEscuro {
     font-size: 25px;
     cursor: pointer;
     position: absolute;
     top: 15px;
     right: 82px;
   }
-  #temaClaro {
+  #botaoClaro {
     font-size: 25px;
     cursor: pointer;
     position: absolute;

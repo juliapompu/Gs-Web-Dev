@@ -1,6 +1,6 @@
-const botaoEscuro = document.getElementById('temaEscuro');
-const botaoClaro = document.getElementById('temaClaro');
-const botaoRosa = document.getElementById('temaRosa');
+const temaEscuro = document.getElementById('botaoEscuro');
+const temaClaro = document.getElementById('botaoClaro');
+const temaRosa = document.getElementById('botaoRosa');
 
 function setTema(classe) {
   document.body.classList.remove('modo-escuro', 'modo-claro', 'modo-rosa');
