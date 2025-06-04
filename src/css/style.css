@@ -269,7 +269,14 @@ body {
   margin: 40px;
 }
 
-
+.linha-vertical {
+  width: 2px;
+  height: 200px;
+  background: #023e8a;
+  margin: 10px auto 40px auto; /* 10px em cima, 40px embaixo */
+  display: block;
+  border-radius: 2px;
+}
 
 
 /*-------------------------------------------*/
