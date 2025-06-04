@@ -232,6 +232,7 @@ body {
   margin-bottom: 10px;
   font-size: 24px;
   margin: 40px;
+  text-align: center;
 }
 
 #publicoAlvo p {
@@ -239,6 +240,8 @@ body {
   color: #333;
   margin-bottom: 10px auto;
   margin: 40px;
+  max-width: 1000px;
+  text-align: center;
 }
 
 #beneficios h3 {
@@ -260,6 +263,7 @@ body {
   margin-bottom: 10px;
   font-size: 24px;
   margin: 40px;
+  text-align: center;
 }
 
 #comoAjudar p{
@@ -267,13 +271,15 @@ body {
   color:#333;
   margin-bottom: 10px auto;
   margin: 40px;
+  max-width: 1000px;
+  text-align: center;
 }
 
 .linha-vertical {
-  width: 2px;
-  height: 200px;
+  width: 6px;
+  height: 300px;
   background: #023e8a;
-  margin: 10px auto 40px auto; /* 10px em cima, 40px embaixo */
+  margin: 30px auto 60px auto; 
   display: block;
   border-radius: 2px;
 }
@@ -468,7 +474,8 @@ body.modo-rosa {
 .modo-rosa #comoAjudar h3{
   color: #ff78cb;
 }
-.modo-rosa .linha {
+.modo-rosa .linha,
+.modo-rosa .linha-vertical {
   background: #ff78cb; 
 }
 .modo-rosa #atencaoRisco p{
@@ -515,7 +522,8 @@ body.modo-escuro {
 .modo-escuro #comoAjudar p {
   color: white;
 }
-.modo-escuro .linha {
+.modo-escuro .linha,
+.modo-escuro .linha-vertical {
   background: #f0f4f8; 
 }
 .modo-escuro #atencaoRisco p{
