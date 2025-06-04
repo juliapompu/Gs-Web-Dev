@@ -1,35 +1,17 @@
-const botaoEscuro = document.getElementById('temaEscuro');
-    let modoEscuro = false;
+const temaEscuro = document.getElementById('botaoEscuro');
+const temaClaro = document.getElementById('botaoClaro');
+const temaRosa = document.getElementById('botaoRosa');
 
-    botaoEscuro.addEventListener('click', () => {
-      modoEscuro = !modoEscuro;
+function setTema(classe) {
+  document.body.classList.remove('modo-escuro', 'modo-claro', 'modo-rosa');
+  document.body.classList.add(classe);
+  localStorage.setItem('tema', classe);
+}
+const temaSalvo = localStorage.getItem('tema');
+if (temaSalvo) {
+  document.body.classList.add(temaSalvo);
+}
 
-      if (modoEscuro) {
-        document.body.style.backgroundColor = '#062F4F';
-      } 
-    });
-
-const botaoClaro = document.getElementById('temaClaro');
-    let modoClaro = false;
-
-    botaoClaro.addEventListener('click', () => {
-      modoClaro = !modoClaro;
-
-      if (modoClaro) {
-        document.body.style.backgroundColor = '#ffffff';
-      } 
-    });
-
-const botaoRosa = document.getElementById('temaRosa');
-    let modoRosa = false;
-
-    botaoRosa.addEventListener('click', () => {
-      modoRosa = !modoRosa;
-
-      if (modoRosa) {
-        document.body.classList.add('modo-rosa')
-      } 
-      else {
-        document.body.classList.remove('modo-rosa')
-      }
-    });
+botaoEscuro.addEventListener('click', () => setTema('modo-escuro'));
+botaoClaro.addEventListener('click', () => setTema('modo-claro'));
+botaoRosa.addEventListener('click', () => setTema('modo-rosa'));

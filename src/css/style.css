@@ -414,32 +414,134 @@ footer {
 
 /*-------------------------------------------*/
 
-/* Css do botao do modo escuro */
+/* Css dos temas */
 body {
     transition: background-color 0.3s;
   }
-  #temaRosa {
-    position: flex;
+  #botaoRosa {
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
     top: 15px;
     right: 50px;
-    font-size: 24px;
-    cursor: pointer;
   }
-  #temaEscuro {
-    position: flex;
+  #botaoEscuro {
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
     top: 15px;
     right: 82px;
-    font-size: 24px;
-    cursor: pointer;
   }
-  #temaClaro {
-    position: flex;
+  #botaoClaro {
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
     top: 15px;
     right: 110px;
-    font-size: 24px;
-    cursor: pointer;
   }
 
+/*-------------------------------------------*/
+
+/* Css do modo rosa */
+body.modo-rosa {
+  background-color: #f0f4f8;
+}
+.modo-rosa #questoesQuiz {
+  color: #ff78cb;
+}
+.modo-rosa #botaoEnviar {
+  background-color: #ff78cb;
+}
 .modo-rosa header{
   background-color: #ff78cb;
+}
+.modo-rosa footer{
+  background-color: #ff78cb;
+}
+.modo-rosa .content h2,
+.modo-rosa .comoAgir h2,
+.modo-rosa .comoSolucionar h2,
+.modo-rosa #tecnologia h3,
+.modo-rosa #objetivos h3,
+.modo-rosa #publicoAlvo h3,
+.modo-rosa #beneficios h3,
+.modo-rosa #comoAjudar h3{
+  color: #ff78cb;
+}
+.modo-rosa .linha {
+  background: #ff78cb; 
+}
+.modo-rosa #atencaoRisco p{
+  color: #ff78cb;
+}
+
+/*-------------------------------------------*/
+
+/* Css do modo escuro */
+body.modo-escuro {
+  background-color: #062F4F;
+}
+.modo-escuro form {
+  background-color: #023e8a;
+}
+.modo-escuro #questoesQuiz {
+  color: white;
+}
+.modo-escuro span {
+  color: white;
+}
+.modo-escuro header,
+.modo-escuro footer {
+  background-color: #020e18;
+  color: white;
+}
+.modo-escuro .content h2,
+.modo-escuro .comoAgir h2,
+.modo-escuro .comoSolucionar h2,
+.modo-escuro #tecnologia h3,
+.modo-escuro #objetivos h3,
+.modo-escuro #publicoAlvo h3,
+.modo-escuro #beneficios h3,
+.modo-escuro #comoAjudar h3 {
+  color: #7cbdff;
+}
+.modo-escuro .content p,
+.modo-escuro .comoAgir p,
+.modo-escuro .comoSolucionar p,
+.modo-escuro #tecnologia p, 
+.modo-escuro #objetivos ol,
+.modo-escuro #publicoAlvo p,
+.modo-escuro #beneficios ul, 
+.modo-escuro #comoAjudar p {
+  color: white;
+}
+.modo-escuro .linha {
+  background: #f0f4f8; 
+}
+.modo-escuro #atencaoRisco p{
+  color: white;
+}
+.modo-escuro #legendaMapa {
+  color: white;
+}
+
+/*-------------------------------------------*/
+
+/* Css do modo claro */
+body.modo-claro {
+  background-color: #f0f4f8;
+}
+
+.modo-claro header,
+.modo-claro footer {
+  background-color: #062F4F;
+  color: white;
+}
+.modo-claro .content h2,
+.modo-claro .comoAgir h2{
+  color: #023e8a;
+}
+.modo-claro .content p,
+.modo-claro .comoAgir p {
+  color: #333;
 }
