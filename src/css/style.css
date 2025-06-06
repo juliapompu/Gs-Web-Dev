@@ -181,10 +181,11 @@ body {
   #tecnologia p {
     font-size: 20px;
     color: #333;
-    margin-bottom: 10px auto;
+    max-width: 700px;
+    margin: 40px auto;
     text-align: center;
-    margin: 40px;
 }
+
 
 .linha {
   width: 60%;  
@@ -240,8 +241,8 @@ body {
   font-size: 20px;
   color: #333;
   margin-bottom: 10px auto;
-  margin: 40px;
-  max-width: 1000px;
+  margin: 40px auto;
+  max-width: 700px;
   text-align: center;
 }
 
@@ -268,8 +269,6 @@ body {
   flex-wrap: wrap;
 }
 
-
-
 #comoAjudar h3 {
   color: #023e8a;
   margin-bottom: 10px;
@@ -282,9 +281,10 @@ body {
   font-size: 20px;
   color:#333;
   margin-bottom: 10px auto;
-  margin: 40px;
-  max-width: 1000px;
+  margin: 40px auto;
+  max-width: 700px;
   text-align: center;
+  align-items: center;
 }
 
 .linha-vertical {
@@ -294,6 +294,36 @@ body {
   margin: 30px auto 60px auto; 
   display: block;
   border-radius: 2px;
+}
+
+#tecnologia{
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #e1e4e6;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+#comoAjudar,
+#publicoAlvo{
+  max-width: 700px;
+  margin: 40px;
+  padding: 30px;
+  background-color: #e1e4e6;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.content,
+.comoSolucionar,
+.objetivos-text{
+  max-width: 700px;
+  margin: 40px;
+  padding: 30px;
+  background-color: #e1e4e6;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -483,7 +513,8 @@ body.modo-rosa {
 .modo-rosa #objetivos h3,
 .modo-rosa #publicoAlvo h3,
 .modo-rosa #beneficios h3,
-.modo-rosa #comoAjudar h3{
+.modo-rosa #comoAjudar h3,
+.modo-escuro #paragrafo{
   color: #ff78cb;
 }
 .modo-rosa .linha,
@@ -492,6 +523,36 @@ body.modo-rosa {
 }
 .modo-rosa #atencaoRisco p{
   color: #ff78cb;
+}
+
+.modo-rosa #tecnologia{
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fabee3;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modo-rosa #comoAjudar,
+.modo-rosa #publicoAlvo{
+  max-width: 1000px;
+  margin: 40px;
+  padding: 30px;
+  background-color: #fabee3;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modo-rosa .content,
+.modo-rosa .comoSolucionar,
+.modo-rosa .objetivos-text{
+  max-width: 700px;
+  margin: 40px;
+  padding: 30px;
+  background-color: #fabee3;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 /*-------------------------------------------*/
@@ -531,7 +592,8 @@ body.modo-escuro {
 .modo-escuro #objetivos ol,
 .modo-escuro #publicoAlvo p,
 .modo-escuro #beneficios ul, 
-.modo-escuro #comoAjudar p {
+.modo-escuro #comoAjudar p,
+.modo-escuro #paragrafo {
   color: white;
 }
 .modo-escuro .linha,
@@ -543,6 +605,25 @@ body.modo-escuro {
 }
 .modo-escuro #legendaMapa {
   color: white;
+}
+
+.modo-escuro #tecnologia{
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #0f5489;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modo-escuro #comoAjudar,
+.modo-escuro #publicoAlvo{
+  max-width: 1000px;
+  margin: 40px;
+  padding: 30px;
+  background-color: #0f5489;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 /*-------------------------------------------*/
