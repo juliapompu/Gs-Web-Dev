@@ -25,18 +25,12 @@ O S.O.S Enchentes - RiscoZero é um site interativo que visa informar e alertar 
  -  ┣ 📁 pages
  -   ┃ ┣ 📄 alertas.html
  -   ┃ ┗ 📄 quiz.html
-# 📄 index.html (página principal)
-
-
-# 📡 Informações atualizadas e educativas sobre riscos
-
-# 📍 Mapas e imagens de áreas afetadas
-
-# 📑 Dicas de como se preparar e agir em situações de enchente
-
-# 📚 Materiais educativos para conscientização
-
-# 📲 Facilidade de acesso e visualização em qualquer dispositivo
+- 📄 index.html (página principal)
+- 📡 Informações atualizadas e educativas sobre riscos
+- 📍 Mapas e imagens de áreas afetadas
+- 📑 Dicas de como se preparar e agir em situações de enchente
+- 📚 Materiais educativos para conscientização
+-  📲 Facilidade de acesso e visualização em qualquer dispositivo
 
 ## 🧠 Tecnologias Utilizadas
 - 🌐 HTML (estrutura)
