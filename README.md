@@ -6,6 +6,9 @@
 ## 📜 Descrição do Projeto
 O S.O.S Enchentes - RiscoZero é um site interativo que visa informar e alertar a população sobre riscos de enchentes em suas regiões. A plataforma oferece conteúdos educativos, informações sobre como agir em situações de risco e alertas preventivos. Este projeto tem caráter educativo e busca aumentar a conscientização sobre os impactos das enchentes no Brasil.
 
+## Github Pages
+https://juliapompu.github.io/Gs-Web-Dev/
+
 ## 🛠️ Funcionalidades
 - ✅ Página inicial com informações sobre enchentes e seus impactos
 - ✅ Sistema de alertas simulados sobre riscos de enchentes
