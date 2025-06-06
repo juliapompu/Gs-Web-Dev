@@ -17,10 +17,8 @@ https://juliapompu.github.io/Gs-Web-Dev/
 - ✅ Carrossel de imagens mostrando os impactos das enchentes
 - ✅ Seções educativas: como agir, benefícios do sistema, público-alvo e orientações
 
-## 📦 Estrutura do Projeto
-- scss
-- Copiar
-- Editar
+---
+
 # 📁 src
  - ┣ 📁 assets (imagens e ícones)
  -  ┣ 📁 css (estilos)
@@ -34,6 +32,8 @@ https://juliapompu.github.io/Gs-Web-Dev/
 - 📑 Dicas de como se preparar e agir em situações de enchente
 - 📚 Materiais educativos para conscientização
 -  📲 Facilidade de acesso e visualização em qualquer dispositivo
+
+  ---
 
 ## 🧠 Tecnologias Utilizadas
 - 🌐 HTML (estrutura)
