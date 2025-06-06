@@ -127,7 +127,7 @@ body {
 .content h2 {
   color: #023e8a;
   margin-bottom: 1rem;
-  font-size: 1.8rem;
+  font-size: 24px;
 }
 
 .content p {
@@ -317,7 +317,8 @@ body {
 
 .content,
 .comoSolucionar,
-.objetivos-text{
+.objetivos-text,
+#beneficios {
   max-width: 700px;
   margin: 40px;
   padding: 30px;
@@ -325,6 +326,36 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
+
+#beneficios-img {
+  display: flex;
+  align-items: center; /* CENTRALIZA verticalmente */
+  justify-content: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 40px auto;
+  flex-wrap: wrap;
+}
+
+#beneficios-img img {
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  flex-shrink: 0;
+}
+
+#beneficios-img #beneficios {
+  max-width: 1000px;
+  margin: 0.2px;
+  padding: 1%;
+  flex: 1;
+}
+
+
+
+
+
 
 
 /*-------------------------------------------*/
@@ -525,6 +556,10 @@ body.modo-rosa {
   color: #ff78cb;
 }
 
+.modo-escuro #paragrafo {
+  color: #ff78cb;
+}
+
 .modo-rosa #tecnologia{
   max-width: 1000px;
   margin: 40px auto;
@@ -546,7 +581,8 @@ body.modo-rosa {
 
 .modo-rosa .content,
 .modo-rosa .comoSolucionar,
-.modo-rosa .objetivos-text{
+.modo-rosa .objetivos-text,
+.modo-rosa #beneficios {
   max-width: 700px;
   margin: 40px;
   padding: 30px;
@@ -607,6 +643,10 @@ body.modo-escuro {
   color: white;
 }
 
+.modo-escuro #paragrafo {
+  color: white;
+}
+
 .modo-escuro #tecnologia{
   max-width: 1000px;
   margin: 40px auto;
@@ -619,6 +659,18 @@ body.modo-escuro {
 .modo-escuro #comoAjudar,
 .modo-escuro #publicoAlvo{
   max-width: 1000px;
+  margin: 40px;
+  padding: 30px;
+  background-color: #0f5489;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modo-escuro .content,
+.modo-escuro .comoSolucionar,
+.modo-escuro .objetivos-text,
+.modo-escuro #beneficios {
+  max-width: 700px;
   margin: 40px;
   padding: 30px;
   background-color: #0f5489;
